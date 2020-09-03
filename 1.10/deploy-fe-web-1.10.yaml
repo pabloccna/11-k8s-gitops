@@ -4,9 +4,9 @@ metadata:
   creationTimestamp: null
   labels:
     run: web-3
-  name: web-2
+  name: web-3
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       run: web-3
